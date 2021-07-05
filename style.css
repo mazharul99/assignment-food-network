@@ -14,6 +14,11 @@ h1{
 h2{
     font-size:35px;
 }
+
+h3{
+    font-size: 30px;
+}
+
 .orange{
     color:orange;
 }
@@ -67,5 +72,26 @@ h2{
 
 .center p{
     text-align:center;
+}
+
+.flexible3{
+    display:flex;
+    
+
+}
+
+.flexible3 img{
+    width:100%;
+}
+
+.three-part{
+    margin-left: 2%;
+    margin-right: 2%;
+    border : 15px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 0;
+    box-shadow: 7px 7px 20px;
+    width:33%;
+    
 }
 
