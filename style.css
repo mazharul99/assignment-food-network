@@ -1,0 +1,48 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 30px 50px 75px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+.orange{
+    color:orange;
+}
+
+.link-style{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 25px;
+    color:white;
+    font-weight:700px;
+    border-radius: 25px;
+    font-size:1.3em;
+}
+
+.flexible{
+    display: flex;
+}
+
+.half-part{
+    width:50%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.half-part img{
+    width:100%;
+}
+
+.bg-image{
+    background-image: url(images/shapes/Group8450.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width:50%;
+    
+}
