@@ -9,7 +9,10 @@ p{
 
 h1{
     font-size: 50px;
-    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    font-size:35px;
 }
 .orange{
     color:orange;
@@ -17,7 +20,7 @@ h1{
 
 .link-style{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(to right, rgb(219, 11, 11) , rgb(255, 166, 0));
     padding: 10px 25px;
     color:white;
     font-weight:700px;
@@ -27,6 +30,7 @@ h1{
 
 .flexible{
     display: flex;
+    margin-bottom: 75px;
 }
 
 .half-part{
@@ -39,10 +43,29 @@ h1{
     width:100%;
 }
 
-.bg-image{
+.bg-image1{
     background-image: url(images/shapes/Group8450.png);
     background-repeat: no-repeat;
-    background-position: top;
-    width:50%;
-    
+    background-size: 35% 90%;
+    background-position: right;
+
 }
+
+.bg-image2{
+    background-image: url(images/shapes/8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.center{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right:25%;
+}
+
+.center p{
+    text-align:center;
+}
+
