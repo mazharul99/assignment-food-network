@@ -23,6 +23,34 @@ h3{
     color:orange;
 }
 
+.banner2{
+        height: 500px;
+        width: 100%;
+}
+
+.flexible5{
+    display:flex;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.more-link{
+    width:100%;
+    text-align:center;
+    margin: 18px 25px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(214, 183, 44) , rgb(119, 110, 11));
+    padding: 8px 25px;
+    color:rgb(255, 255, 255);
+    font-weight:500px;
+    border-radius: 20px;
+    font-weight:500px;
+    font-size: 25px;
+}
+
+
+
 .link-style{
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(219, 11, 11) , rgb(255, 166, 0));
